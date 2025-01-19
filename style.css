@@ -1,0 +1,35 @@
+  .sticky-header {
+    position: sticky; /* Makes the element sticky */
+    top: 0; /* Sticks to the top of the viewport */
+    background-color: #333; /* Background color for visibility */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Some padding */
+    z-index: 1000; /* Ensures it stays above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);} /* Optional: adds shadow for better visibility */
+
+
+
+
+    #navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    #nav {
+      float: left;
+    }
+    
+    #nav a {
+      display: block;
+      color: rgb(33, 31, 31);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    #nav a:hover {
+      background-color: rgba(255, 255, 255, 0.459);
+    }
